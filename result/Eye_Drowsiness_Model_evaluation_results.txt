@@ -1,0 +1,27 @@
+============================================================
+EVALUATION RESULTS - Eye Drowsiness Model
+============================================================
+
+Model Path: C:\Users\Talha\OneDrive\Desktop\ML_Project\models\eye_cnn.h5
+Test Data: C:\Users\Talha\OneDrive\Desktop\ML_Project\train
+Test Samples: 800
+
+CORE METRICS:
+  Accuracy:  0.9812 (98.12%)
+  Precision: 1.0000 (100.00%)
+  Recall:    0.9625 (96.25%)
+  F1-Score:  0.9809 (98.09%)
+  AUC:       0.9777
+
+CONFUSION MATRIX:
+  TP: 385, TN: 400, FP: 0, FN: 15
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+ Closed_Eyes     0.9639    1.0000    0.9816       400
+   Open_Eyes     1.0000    0.9625    0.9809       400
+
+    accuracy                         0.9812       800
+   macro avg     0.9819    0.9812    0.9812       800
+weighted avg     0.9819    0.9812    0.9812       800

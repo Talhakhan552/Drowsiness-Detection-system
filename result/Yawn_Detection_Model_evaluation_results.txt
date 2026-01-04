@@ -1,0 +1,27 @@
+============================================================
+EVALUATION RESULTS - Yawn Detection Model
+============================================================
+
+Model Path: C:\Users\Talha\OneDrive\Desktop\ML_Project\models\yawn_cnn.h5
+Test Data: C:\Users\Talha\OneDrive\Desktop\ML_Project\train_yawn
+Test Samples: 1023
+
+CORE METRICS:
+  Accuracy:  0.9404 (94.04%)
+  Precision: 0.9458 (94.58%)
+  Recall:    0.9327 (93.27%)
+  F1-Score:  0.9392 (93.92%)
+  AUC:       0.9779
+
+CONFUSION MATRIX:
+  TP: 471, TN: 491, FP: 27, FN: 34
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+     no yawn     0.9352    0.9479    0.9415       518
+        yawn     0.9458    0.9327    0.9392       505
+
+    accuracy                         0.9404      1023
+   macro avg     0.9405    0.9403    0.9403      1023
+weighted avg     0.9404    0.9404    0.9404      1023

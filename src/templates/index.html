@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Driver Safety System</title>
+    <style>
+        body { background-color: #121212; color: white; font-family: sans-serif; text-align: center; }
+        .container { max-width: 800px; margin: 20px auto; background: #1e1e1e; padding: 20px; border-radius: 12px; }
+        h1 { color: #ff4757; }
+        img { width: 100%; border: 4px solid #333; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Driver Safety AI</h1>
+        <img src="{{ url_for('video_feed') }}" alt="Video Stream">
+        <p>🟢 System Status: <b>Running</b></p>
+    </div>
+</body>
+</html>

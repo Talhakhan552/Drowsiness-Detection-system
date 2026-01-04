@@ -1,0 +1,19 @@
+# Ignore Datasets (Too big for GitHub)
+train/
+train_yawn/
+
+
+# models/*.h5
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
